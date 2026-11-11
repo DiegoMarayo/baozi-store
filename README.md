@@ -29,10 +29,12 @@ API REST desenvolvida em Java com Spring Boot para gerenciamento de uma loja fic
 | GET | `/clientes` | Listar clientes |
 | GET | `/clientes/{id}` | Consultar cliente por ID |
 | DELETE | `/clientes/{id}` | Excluir cliente |
+|---|---|---|
 | POST | `/produtos` | Cadastrar produto |
 | GET | `/produtos` | Listar produtos |
 | GET | `/produtos/{id}` | Consultar produto por ID |
 | DELETE | `/produtos/{id}` | Excluir produto |
+|---|---|---|
 | POST | `/pedidos` | Cadastrar pedido |
 | GET | `/pedidos` | Listar pedidos |
 | GET | `/pedidos/{id}` | Consultar pedido por ID |
@@ -48,7 +50,6 @@ spring.datasource.username=SEU_USUARIO
 spring.datasource.password=SUA_SENHA
 ```
 
-O banco de dados `baozi_store` é criado automaticamente caso ainda não exista.
 
 ## Execução
 
